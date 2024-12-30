@@ -1,2 +1,1 @@
-# kafa
-Get a random non-English translation of ‘coffee’
+Get a random non-English translation of ‘coffee’ using MyMemory API.
