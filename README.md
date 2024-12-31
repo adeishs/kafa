@@ -1,5 +1,7 @@
 Get a random non-English translation of ‘coffee’ using MyMemory API.
 
+![A cup of coffee](coffee.jpg)
+
 # History
 
 It started as a joke between myself and [@kva1966](https://github.com/kva1966).
@@ -22,4 +24,3 @@ docker compose run --rm kafa
 
 The first run will take a while as it builds the image. Subsequent ones will be
 faster and just display the output.
-
