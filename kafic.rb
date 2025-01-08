@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+delim = "```\n" if ARGV.shift == 'md'
+puts delim if delim
 puts [
   <<~COFFEE,
     ===--------------==++===--::-:----------
@@ -144,3 +146,4 @@ puts [
     %%%%%%%%%%%%@@@@@@@@@@@%%%%%%%%%%%%%%%%%
   COFFEE
 ].sample
+puts delim if delim
