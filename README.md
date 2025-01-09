@@ -1,4 +1,6 @@
-Get a random non-English translation of ‘coffee’ using MyMemory API.
+Two coffee-related scripts:
+1. kafa: Get a random non-English translation of ‘coffee’ using MyMemory API.
+1. kafic: Get a random coffee ASCII art.
 
 ![A cup of coffee](coffee.jpg)
 
@@ -11,9 +13,23 @@ This tool automates this.
 
 You need [Ruby](https://www.ruby-lang.org/en/) installed, simply run:
 
-```bash
-ruby kafa.rb
-```
+1. kafa:
+
+   ```bash
+   ./kafa.rb
+   ```
+
+1. kafic:
+
+   ```bash
+   ./kafic.rb
+   ```
+
+   or if you want Markdown:
+
+   ```bash
+   ./kafic.rb md
+   ```
 
 Alternatively, if you have [Docker](https://www.docker.com/) or [Docker Desktop](https://www.docker.com/products/docker-desktop/),
 you can run:
